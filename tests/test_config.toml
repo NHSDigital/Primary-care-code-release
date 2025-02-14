@@ -1,0 +1,26 @@
+# test area specific toml file
+# inputs are expected to be acception or rejection cases where specified
+
+# all inputs for unit testing
+[unittests]
+
+connection.svr.valid    = ''
+connection.svr.invalid  = ''
+
+connection.db.valid     = '' # acception
+connection.db.invalid   = '' # rejection
+
+connection.tbl.valid    = '' # acception
+connection.tbl.invalid  = '' # rejection
+
+filepath.SNOMED_CT.valid =  ''
+filepath.Publication_Outputs.valid = ''
+filepath.rel_version.valid = ''
+
+MmmYY = ''
+
+UKSNOMEDCT.db = ''
+UKSNOMEDCT.SCT_CONCEPT = ''
+UKSNOMEDCT.SCT_DESCRIPTION = ''
+UKSNOMEDCT.SCT_REFSET = ''
+
